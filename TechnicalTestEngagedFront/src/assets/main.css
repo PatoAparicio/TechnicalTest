@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+ }
+
+.navbar-nav .nav-link {
+    transition: all 0.3s ease-in-out; 
+}
+.navbar-nav .nav-link:hover{
+    font-size: 1.2rem;
+    color:#FF5841;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px rgba(95, 11, 50, 0.2); 
+}
+
+.navbar-toggler {
+    border: 3px solid transparent; 
+    transition: border-color 0.3s ease;
+}
+
+.navbar-toggler:hover {
+    border-color: #FF5841; 
+    box-shadow: 5px 5px 5px rgba(95, 11, 50, 0.2); 
+}
+section {
+    scroll-margin-top: 80px; 
+  }
+body {
+    padding-top: 80px; 
+}  
+.img-profile{
+    border: 10px solid rgba(0, 0, 0, 0.07);
+    margin: 0 auto;
+    border-radius: 50%;
+    max-width: 100%; 
+    height: auto; 
+    width: 300px;   
+}
+
+.titulo-especial{
+    color: #FF5841;
+    text-shadow: 5px 5px 5px rgba(95, 11, 50, 0.2);
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 1%;
+}
+p{
+    text-align: justify;    
+}
+.btn.custom-button {
+  border: 2px solid #C53678; 
+  background-color: white;   
+  color: #C53678;            
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.custom-button:hover {
+  border: 2px solid #C53678 !important; 
+  background-color: #C53678 !important; 
+  color: white !important;    
+}
+
+ul li{
+    display: flex;
+    list-style: none;
+    justify-content: start;
+}
+
+h2, h4 {
+    text-align: center;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    }
+
+.col-12.col-md-6 {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center; 
+}
+
+#output2, #output1 {
+  background-color: #f8f9fa; 
+  border: 1px solid #dee2e6;
+  border-radius: 5px;     
+  padding: 15px;          
+  font-size: 0.95em;     
+  color: #343a40;           
+  white-space: pre-wrap;    
+  word-break: break-word;   
+  overflow-x: auto;        
+  max-height: 200px;       
+  overflow-y: auto;
+  display: flex;            
+  justify-content: center;   
+  align-items: center;       
+  text-align: center; 
+}
